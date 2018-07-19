@@ -1,0 +1,46 @@
+*{
+    border: 2px solid cornflowerblue; margin: 5px;
+    padding: 3px;
+    }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+    
+body {
+        height: 100vh;
+        }
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{width: 50%;}
+
+/* a {width:50%;} */
+
+section{
+    display: flex;
+    
+}
+#main{
+    width: 75%;
+    height: 75vh;
+}
+#sidebar{
+    width: 25%;
+    height: 75vh;
+
+}
+
+footer{
+display:flex;
+justify-content: space-between;
+
+
+
+}
